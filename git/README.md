@@ -5,8 +5,8 @@ Sets the username and mail address for commits.
 * `git config --global user.name "git-username"`
 * `git config --global user.email "your@email.com"`
 
-2. git init
-initialize repository as git
+2. git init  
+initialize repository as git  
 `git init`
 
 3. git clone [URL]
