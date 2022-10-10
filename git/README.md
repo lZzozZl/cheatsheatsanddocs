@@ -47,13 +47,14 @@ local repository
 Move from one branch to another branch
 * `git chekout devbranch2`
 
-11. git checkout [Options] [Branch]
+11. git checkout [Options] [Branch]	// *!depricated! use git switch*
 Create specified branch and simultaneously switches to it
 * `git checkout -b devbranch3`
 
-12. git branch [Options] [Branch]
-Performs operations over the specified branch
-* `git branc -d devbranch2`
+12. git branch [Options] [Branch]  
+Performs operations over the specified branch  
+* `git branch 	// highlights current branch`
+* `git branc -d devbranch2`  
 
 13. git merge [Branch]
 Merge the history of specified branch into the current branch
@@ -66,4 +67,8 @@ Shows the log of the commits made so far the current branch
 15. git show [Commit ID]
 List the meta-data for the specific commit
 * `git show (some incredably long number)`
+
+16. git switch -c test --track origin/master  
+Create new branch and swiches to it  
+* `git switch -c test --track master 	// or origin/master`
 
